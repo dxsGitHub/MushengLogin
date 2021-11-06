@@ -14,6 +14,7 @@
 		97041B14BB3ED6F6B52930E4FA7FBB88 /* Pods-MushengLoginMoudle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03D480B18FBB0663EECDA9FDA1AC81C /* Pods-MushengLoginMoudle_Example-dummy.m */; };
 		A006A038FE675DE2172074D5EB321A1A /* Pods-MushengLoginMoudle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14551DCBECB8800A2BFB9CE578979316 /* Pods-MushengLoginMoudle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A347808BD234732CE468A9ED0469185B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A90FB72727363F040003FECE /* MSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB72627363F040003FECE /* MSLoginViewController.swift */; };
 		C5C8E5EEA1081A87A531C5302921010D /* MushengLoginMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AE1468CCF2E1F6EEB56E453F293F36 /* MushengLoginMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E386D0B942D324D3D2108A6EBF7EE3E2 /* Pods-MushengLoginMoudle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4BF7DE1761EA7B3ACE627CD947B8F0 /* Pods-MushengLoginMoudle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FED27520949AE754ABF2934A9A3530EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -56,6 +57,7 @@
 		82928EB9F70598CA41A08FA5A17A970E /* Pods-MushengLoginMoudle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MushengLoginMoudle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3CD2FD9908D5A6F512112E9A2DC493 /* Pods-MushengLoginMoudle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MushengLoginMoudle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A90FB72627363F040003FECE /* MSLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSLoginViewController.swift; path = MushengLoginMoudle/Classes/MSLoginViewController.swift; sourceTree = "<group>"; };
 		ACD6DF4C13CEEBF9FA376A439ED0F587 /* Pods-MushengLoginMoudle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MushengLoginMoudle_Example.modulemap"; sourceTree = "<group>"; };
 		BCC908E41F6A7204045799C7ED0E2BDE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MushengLoginMoudle/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C8AE1468CCF2E1F6EEB56E453F293F36 /* MushengLoginMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MushengLoginMoudle-umbrella.h"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				BCC908E41F6A7204045799C7ED0E2BDE /* ReplaceMe.swift */,
+				A90FB72627363F040003FECE /* MSLoginViewController.swift */,
 				63C810854799F453C65B1546C99CE360 /* Pod */,
 				24C2CC06E99B34E77663ED8A54E98536 /* Support Files */,
 			);
@@ -369,6 +372,7 @@
 			files = (
 				9181473844239E422161A086D649CE41 /* MushengLoginMoudle-dummy.m in Sources */,
 				0754550D90A24906F9F7AF3FE61C06E3 /* ReplaceMe.swift in Sources */,
+				A90FB72727363F040003FECE /* MSLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
