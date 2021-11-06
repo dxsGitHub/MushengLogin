@@ -1,0 +1,6 @@
+framework module MushengLoginMoudle {
+  umbrella header "MushengLoginMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

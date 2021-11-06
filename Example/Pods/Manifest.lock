@@ -1,0 +1,16 @@
+PODS:
+  - MushengLoginMoudle (0.1.0)
+
+DEPENDENCIES:
+  - MushengLoginMoudle (from `../`)
+
+EXTERNAL SOURCES:
+  MushengLoginMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MushengLoginMoudle: cdbc297f874b2606973b3cf91e471f803c29ac34
+
+PODFILE CHECKSUM: 7846f0b209782a305de5a7f5a57fd514dbb232c2
+
+COCOAPODS: 1.11.2
