@@ -211,6 +211,10 @@
 		EC2ABF834E57ED0E146DCE9D13581E15 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B92C626584DEF6EA1247790E0C1686 /* YYWeakProxy.m */; };
 		ECBD83B5C4CE6ABC5AF2523E0FBC6EDF /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = DC26B8583CF8F6D48F7F3CB29E4BFFB8 /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDAB424A5DAF0F65AD0A994F8ED9C992 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF08DDD2E0B9AEDB09F60CC6059725 /* MobileCoreServices.framework */; };
+		EF97E861273CC52D00FAA483 /* MSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97E860273CC52D00FAA483 /* MSRegisterViewController.swift */; };
+		EF97E863273CCBC500FAA483 /* MSLoginInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97E862273CCBC500FAA483 /* MSLoginInputView.swift */; };
+		EF97E865273CEA3600FAA483 /* MSForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97E864273CEA3600FAA483 /* MSForgetViewController.swift */; };
+		EF97E867273CF51300FAA483 /* MSCompleteInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF97E866273CF51300FAA483 /* MSCompleteInfoController.swift */; };
 		EFCD2BA2273BFF3F0023AEF6 /* MSLoginProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD2BA1273BFF3F0023AEF6 /* MSLoginProtocolView.swift */; };
 		F01443F51C8262D28FB70C2EA03510F2 /* NSNotificationCenter+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E98C6EBA175696E967DC041844383933 /* NSNotificationCenter+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0EBD18B4201C4F5F7BF39097E81FC6C /* NSKeyedUnarchiver+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = AF656BBADA900BBC3884306D1AE7B6F5 /* NSKeyedUnarchiver+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -512,6 +516,10 @@
 		ED9636670825EF34536255E1A013DB08 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYKit/Cache/YYMemoryCache.m; sourceTree = "<group>"; };
 		EE87CC6D332ECCC738B80686935D140F /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYKit/Image/YYAnimatedImageView.m; sourceTree = "<group>"; };
 		EEAD762F94B9078EF2CB44DE4E0A74C3 /* YYFileHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFileHash.m; path = YYKit/Utility/YYFileHash.m; sourceTree = "<group>"; };
+		EF97E860273CC52D00FAA483 /* MSRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSRegisterViewController.swift; sourceTree = "<group>"; };
+		EF97E862273CCBC500FAA483 /* MSLoginInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSLoginInputView.swift; path = MushengLoginMoudle/Classes/MSLoginInputView.swift; sourceTree = "<group>"; };
+		EF97E864273CEA3600FAA483 /* MSForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSForgetViewController.swift; path = MushengLoginMoudle/Classes/MSForgetViewController.swift; sourceTree = "<group>"; };
+		EF97E866273CF51300FAA483 /* MSCompleteInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSCompleteInfoController.swift; path = MushengLoginMoudle/Classes/MSCompleteInfoController.swift; sourceTree = "<group>"; };
 		EFADA8AA4759CD9AC804BC8C9D17D5E2 /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = YYKit/Base/Quartz/YYCGUtilities.m; sourceTree = "<group>"; };
 		EFCD2BA1273BFF3F0023AEF6 /* MSLoginProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSLoginProtocolView.swift; path = MushengLoginMoudle/Classes/MSLoginProtocolView.swift; sourceTree = "<group>"; };
 		F008471456F5D3059AC5E8A4ACF102E9 /* Pods-MushengLoginMoudle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MushengLoginMoudle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -634,7 +642,11 @@
 			isa = PBXGroup;
 			children = (
 				D1F91741E025EA0EBCDE8DBD30096E69 /* MSLoginViewController.swift */,
+				EF97E860273CC52D00FAA483 /* MSRegisterViewController.swift */,
+				EF97E864273CEA3600FAA483 /* MSForgetViewController.swift */,
+				EF97E866273CF51300FAA483 /* MSCompleteInfoController.swift */,
 				EFCD2BA1273BFF3F0023AEF6 /* MSLoginProtocolView.swift */,
+				EF97E862273CCBC500FAA483 /* MSLoginInputView.swift */,
 				8185E5BF66A4CA7004FDBA25A3728AE4 /* Pod */,
 				36C21872E5FA959015EC13A8F78788C4 /* Support Files */,
 			);
@@ -1234,7 +1246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFCD2BA2273BFF3F0023AEF6 /* MSLoginProtocolView.swift in Sources */,
+				EF97E865273CEA3600FAA483 /* MSForgetViewController.swift in Sources */,
+				EF97E867273CF51300FAA483 /* MSCompleteInfoController.swift in Sources */,
+				EF97E861273CC52D00FAA483 /* MSRegisterViewController.swift in Sources */,
 				3038C12DAE0134F2B9EE2CBA05885052 /* MSLoginViewController.swift in Sources */,
+				EF97E863273CCBC500FAA483 /* MSLoginInputView.swift in Sources */,
 				699D3B8E38B0A27C9220456265044BFD /* MushengLoginMoudle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

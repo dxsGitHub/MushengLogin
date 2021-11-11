@@ -33,7 +33,6 @@ class MSLoginProtocolView: UIView {
         let contxtStr = descrbStr + protocolStr1 + protocolStr2
         
         frameLab = UILabel.init(frame: .zero)
-        frameLab = UILabel.init()
         frameLab.text = contxtStr
         frameLab.isHidden = true
         frameLab.textAlignment = .center
@@ -60,11 +59,12 @@ class MSLoginProtocolView: UIView {
         
         
         let attr = NSMutableAttributedString.init(string: contxtStr)
+        attr.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.white, range: NSRange.init(location: 0, length: contxtStr.count))
         attr.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.red, range: NSRange.init(location: descrbStr.count, length: protocolStr1.count))
-        attr.addAttribute(NSAttributedStringKey.underlineStyle, value: .styleNone, range: NSRange.init(location: descrbStr.count, length: protocolStr1.count))
+        attr.addAttribute(NSAttributedStringKey.underlineStyle, value: 1, range: NSRange.init(location: descrbStr.count, length: protocolStr1.count))
         
         attr.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.red, range: NSRange.init(location: (descrbStr + protocolStr1).count, length: protocolStr2.count))
-        attr.addAttribute(NSAttributedStringKey.underlineStyle, value: .styleNone, range: NSRange.init(location: (descrbStr + protocolStr1).count, length: protocolStr2.count))
+        attr.addAttribute(NSAttributedStringKey.underlineStyle, value: 1, range: NSRange.init(location: (descrbStr + protocolStr1).count, length: protocolStr2.count))
         
         
         self.layoutIfNeeded()
@@ -72,6 +72,7 @@ class MSLoginProtocolView: UIView {
         textV.backgroundColor = .clear
         textV.isEditable = false
         textV.isScrollEnabled = false
+        textV.textColor = .white
         textV.attributedText = attr
         textV.frame = frameLab.bounds
         self.addSubview(textV)

@@ -120,7 +120,9 @@ class MSLoginViewController: UIViewController {
 
     
     @objc func phoneLoginBtnClick(sender: UIButton) {
-        
+        let vc = MSRegisterViewController.init()
+        vc.actionType = .verifyLogin
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }
