@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         self.window?.rootViewController = UINavigationController.init(rootViewController: MSLoginViewController.init())
+        self.window?.makeKeyAndVisible()
         
         return true
     }

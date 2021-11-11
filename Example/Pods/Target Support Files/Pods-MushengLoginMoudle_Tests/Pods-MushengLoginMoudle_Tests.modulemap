@@ -1,6 +1,0 @@
-framework module Pods_MushengLoginMoudle_Tests {
-  umbrella header "Pods-MushengLoginMoudle_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
