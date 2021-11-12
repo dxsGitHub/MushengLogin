@@ -141,7 +141,6 @@
 		A6B4A508B4A6ACB10EBAC8B77E6A81AF /* NSNotificationCenter+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B7A754DC45CE1838F0B6961F187390 /* NSNotificationCenter+YYAdd.m */; };
 		A8C15B9F9240B87BD522082AF6048D11 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 974AA0F8ECA4F4A73A9CB3F819677FF2 /* SnapKit-dummy.m */; };
 		A8E2347E614319000C7CF87319F03905 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0103FA98A071F90B78E6D8DBF573AFEC /* CoreFoundation.framework */; };
-		A90FB72B273D47350003FECE /* MSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB72A273D47340003FECE /* MSRegisterViewController.swift */; };
 		A90FB72E273D53BC0003FECE /* MSUILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90FB72D273D53BC0003FECE /* MSUILabelEx.swift */; };
 		A9CA609BDD73920E3F5CDBB3277DF52F /* UIBezierPath+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E101E2D7A698FECF5A425138D93B75 /* UIBezierPath+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC0483F22CF808F2879A5B6B6A1566D0 /* UIBarButtonItem+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF7C52DBA1A00B32D3AB2947256DAB8 /* UIBarButtonItem+YYAdd.m */; };
@@ -344,7 +343,7 @@
 		51BBE08F576BD9025CD1983A4333C656 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYThreadSafeDictionary.m; path = YYKit/Utility/YYThreadSafeDictionary.m; sourceTree = "<group>"; };
 		52D71B26DD728C8845EC2FD4EC11AA38 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYKit/Base/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
 		5652FBA3DF02145D71E9E98931B5EAB2 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYKit/Image/YYWebImageManager.h; sourceTree = "<group>"; };
-		5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MushengLoginMoudle; path = MushengLoginMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MushengLoginMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BF61F1D4ADEEA386FDE6C39CE7437E /* MSForgetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSForgetViewController.swift; path = MushengLoginMoudle/Classes/MSForgetViewController.swift; sourceTree = "<group>"; };
 		59021E980EC3B319DA1A86BE4D1BDE61 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYKit/Model/YYClassInfo.m; sourceTree = "<group>"; };
 		59103926BFA01552691AB407F7CA6A03 /* UIScreen+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+YYAdd.h"; path = "YYKit/Base/UIKit/UIScreen+YYAdd.h"; sourceTree = "<group>"; };
@@ -424,7 +423,6 @@
 		A2340F04301B4CF7DE39850CA2C4A289 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		A60788337627D2DBF808EA846A4FFA98 /* YYSentinel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSentinel.h; path = YYKit/Utility/YYSentinel.h; sourceTree = "<group>"; };
 		A7E101E2D7A698FECF5A425138D93B75 /* UIBezierPath+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+YYAdd.h"; path = "YYKit/Base/UIKit/UIBezierPath+YYAdd.h"; sourceTree = "<group>"; };
-		A90FB72A273D47340003FECE /* MSRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSRegisterViewController.swift; path = MushengLoginMoudle/Classes/MSRegisterViewController.swift; sourceTree = "<group>"; };
 		A90FB72D273D53BC0003FECE /* MSUILabelEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSUILabelEx.swift; sourceTree = "<group>"; };
 		AAF3CDEDCD7CA1678A3290115E6527D1 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYKit/Model/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		ACA5F56C604857C5E0C5302FDDF31875 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSpriteSheetImage.h; path = YYKit/Image/YYSpriteSheetImage.h; sourceTree = "<group>"; };
@@ -881,7 +879,7 @@
 		BCCA735077C4B482194E4740C16B51EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle */,
+				5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle.framework */,
 				3DBBD1FF003BB5C389537CFE135A663D /* Pods-MushengLoginMoudle_Example */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
 				E325DCCD357AF9DF2F7C506424659D7E /* YYKit */,
@@ -906,6 +904,7 @@
 				62898381B087555219F6C32E017049EA /* Pods */,
 				BCCA735077C4B482194E4740C16B51EE /* Products */,
 				BEBDC311824564AB213A63E6C0DE2617 /* Targets Support Files */,
+				EF3EC3A3273E6F67003EFFFB /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -985,6 +984,13 @@
 				C165B26CE8E5ECE9B2028ED5C53446C8 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		EF3EC3A3273E6F67003EFFFB /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1161,7 +1167,7 @@
 			);
 			name = MushengLoginMoudle;
 			productName = MushengLoginMoudle;
-			productReference = 5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle */;
+			productReference = 5659D4EC1112682C4EFF0EEACA3509E1 /* MushengLoginMoudle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AEC871401DDAE95875A89BF40EE51A68 /* Pods-MushengLoginMoudle_Example */ = {
@@ -1396,7 +1402,6 @@
 				DF349A016764F16C8F3D6F4B25F8A5C3 /* MSLoginProtocolView.swift in Sources */,
 				A90FB72E273D53BC0003FECE /* MSUILabelEx.swift in Sources */,
 				EFA826A6273E431D007CAE20 /* MSRegisterViewController.swift in Sources */,
-				A90FB72B273D47350003FECE /* MSRegisterViewController.swift in Sources */,
 				EFA826A4273E42F7007CAE20 /* MSLoginViewController.swift in Sources */,
 				1B0B821DA59CB3177EC191D2CC94DE58 /* MushengLoginMoudle-dummy.m in Sources */,
 			);
@@ -1589,6 +1594,7 @@
 				PRODUCT_NAME = MushengLoginMoudle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1805,6 +1811,7 @@
 				PRODUCT_NAME = MushengLoginMoudle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
