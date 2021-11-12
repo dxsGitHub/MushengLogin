@@ -1,9 +1,9 @@
 use_frameworks!
+use_modular_headers!
 
 platform :ios, '9.0'
 
 target 'MushengLoginMoudle_Example' do
   pod 'MushengLoginMoudle', :path => '../'
 #  pod 'SnapKit'
-#  pod 'YYKit'
 end

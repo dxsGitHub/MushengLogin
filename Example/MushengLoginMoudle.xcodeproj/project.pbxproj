@@ -214,13 +214,11 @@
 				"${PODS_ROOT}/Target Support Files/Pods-MushengLoginMoudle_Example/Pods-MushengLoginMoudle_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MushengLoginMoudle/MushengLoginMoudle.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MushengLoginMoudle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,6 +1,6 @@
 {
   "name": "MushengLoginMoudle",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "summary": "慕声登录模块 MushengLoginMoudle.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dxsGitHub/MushengLoginMoudle",
@@ -13,17 +13,14 @@
   },
   "source": {
     "git": "https://github.com/dxsGitHub/MushengLoginMoudle.git",
-    "tag": "0.1.4"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MushengLoginMoudle/Classes/**/*",
+  "source_files": "MushengLoginMoudle/Classes/**/*.{swift}",
   "dependencies": {
     "SnapKit": [
-
-    ],
-    "YYKit": [
 
     ]
   }

@@ -1,11 +1,7 @@
 PODS:
-  - MushengLoginMoudle (0.1.4):
+  - MushengLoginMoudle (0.1.7):
     - SnapKit
-    - YYKit
   - SnapKit (4.2.0)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - MushengLoginMoudle (from `../`)
@@ -13,17 +9,15 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SnapKit
-    - YYKit
 
 EXTERNAL SOURCES:
   MushengLoginMoudle:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MushengLoginMoudle: d53a9a618e9cf36fe9361bafded1bde9714c7048
+  MushengLoginMoudle: 0a9df990a4dfbb3cfe77797440b12b19be527fb2
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 866834c0765713f42183003c713f77e8e12db37a
+PODFILE CHECKSUM: a972f4367016b1d247f20b96bb5d7d8e1816967f
 
 COCOAPODS: 1.11.2
