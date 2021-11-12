@@ -7,7 +7,6 @@
 
 import UIKit
 import SnapKit
-import YYKit
 
 public
 class MSLoginViewController: UIViewController {
@@ -42,7 +41,7 @@ class MSLoginViewController: UIViewController {
     
     func setupInterface() {
         bgImageV = UIImageView.init(frame: self.view.bounds)
-        bgImageV.backgroundColor = UIColor.init(hexString: "#FF71EE")
+        bgImageV.backgroundColor = .gray
         self.view.addSubview(bgImageV)
         bgImageV.snp.makeConstraints { make in
             make.edges.equalToSuperview()
