@@ -61,7 +61,6 @@
 		3EC4FFBB02EF314DB4E29247745967AA /* YYThreadSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF1A0E1F85D269652C5CF24B9CC1865 /* YYThreadSafeDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F1B839D4092FB6B649147F2C8FFC310 /* YYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA0056863DC3579A60522FEDD8616D /* YYKeychain.m */; };
 		41FE90CDC779C8BA3F1E0BB0A1493CCC /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 655E06FFDC2DFF46067EBA4DBA782726 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4274925E13662470DE9BC5AE4207119C /* MSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16792F8DE79932C3831BAA64D02D29D1 /* MSLoginViewController.swift */; };
 		43804F913C91550CC3769148BCF8952C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01E477F11E0B7147AB6362F327911B /* Foundation.framework */; };
 		4503A1D4E326A8544BD702F4E3822CDD /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB163C068203BE0299CF9625AF3EA45 /* ConstraintRelatableTarget.swift */; };
 		45E8354907FD78E1DD3B1ED71FF4597D /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4748A97591744C97B9B25A7C3B7A0 /* ConstraintConstantTarget.swift */; };
@@ -211,7 +210,6 @@
 		E2A0ACBE5B2CA6CB86AC7BCDA801287B /* YYFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAD762F94B9078EF2CB44DE4E0A74C3 /* YYFileHash.m */; };
 		E2F9185946D5262DD3216031B519D69F /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB0B8CC8F0770F09B48A6D0C80F47C0 /* ConstraintPriority.swift */; };
 		E3416F8555730BF05A4E0EBF8875ADFC /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E41D811623D1883CB23B456D97040C /* ConstraintAttributes.swift */; };
-		E4BEF36F5B4DE27BD2E595D00A045E6F /* MSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A556AD94B5EE8CD37720EC9CC4A43 /* MSRegisterViewController.swift */; };
 		E4F002FD32F4D22B7C6BC3F30F7C8DE6 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BBE1861B65F473D25CFC1311D7A29B /* YYTextRunDelegate.m */; };
 		E74FDE870D4ADABA4AC512A402BB7B90 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7CAC2D5B2DD22976D48622C56019B /* NSObject+YYModel.m */; };
 		EADDB45A0F0C6F848B000D6BDC279522 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE5D87CEAC7D308B4FD0F1DCF2E68F /* UIPasteboard+YYText.m */; };
@@ -224,6 +222,8 @@
 		EE2474610DC501EB8E65DA5EE3B55027 /* UIScreen+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 59103926BFA01552691AB407F7CA6A03 /* UIScreen+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE794888352AFCAAB113A112EC185044 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = F0092CA3807C529AC59D765D117D59A7 /* NSAttributedString+YYText.m */; };
 		EE7FD5B6F3A7295350C26E003C416B66 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CEA499E4CA99458C5606D9D4465A92 /* YYDiskCache.m */; };
+		EFA826A4273E42F7007CAE20 /* MSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA826A3273E42F7007CAE20 /* MSLoginViewController.swift */; };
+		EFA826A6273E431D007CAE20 /* MSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA826A5273E431D007CAE20 /* MSRegisterViewController.swift */; };
 		F0AF8A5B7D85051738AB2944BF8F904F /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C59B591A6ABBD739CD03D3330CB063 /* UIColor+YYAdd.m */; };
 		F16A84D1AA4FC61B5038F85A55937256 /* UITextField+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B4EBDDC6487FCECFD8F2CD6834CF2D /* UITextField+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A29583A52884D77C9B681CD7F62CA6 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AC3AE22C8AEBB0CEA46D98F999C178 /* YYCache.m */; };
@@ -291,7 +291,6 @@
 		11C15F064BF0D186487C97AB8C5C2B38 /* Pods-MushengLoginMoudle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MushengLoginMoudle_Example-frameworks.sh"; sourceTree = "<group>"; };
 		12C59B591A6ABBD739CD03D3330CB063 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYKit/Base/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
 		1496BF8C0A7FE2092ABE595808609DB9 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYKit/Text/String/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
-		16792F8DE79932C3831BAA64D02D29D1 /* MSLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSLoginViewController.swift; path = MushengLoginMoudle/Classes/MSLoginViewController.swift; sourceTree = "<group>"; };
 		18CBE86237CC47BE28E9755477364BE2 /* YYThreadSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYThreadSafeArray.h; path = YYKit/Utility/YYThreadSafeArray.h; sourceTree = "<group>"; };
 		1A0843A777686A676B76035344CA80D3 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYKit/Image/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
 		1ADE5D87CEAC7D308B4FD0F1DCF2E68F /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYKit/Text/String/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
@@ -342,7 +341,6 @@
 		4F55EF9BF948122B1D0AE0FD29DE6E55 /* CALayer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYAdd.m"; path = "YYKit/Base/Quartz/CALayer+YYAdd.m"; sourceTree = "<group>"; };
 		4F9D2AC12EAE5ABD333EC9E73C234840 /* CALayer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYAdd.h"; path = "YYKit/Base/Quartz/CALayer+YYAdd.h"; sourceTree = "<group>"; };
 		5139B19422CFD86C8B6D7805ED18EA3D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		517A556AD94B5EE8CD37720EC9CC4A43 /* MSRegisterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSRegisterViewController.swift; path = MushengLoginMoudle/Classes/MSRegisterViewController.swift; sourceTree = "<group>"; };
 		51BBE08F576BD9025CD1983A4333C656 /* YYThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYThreadSafeDictionary.m; path = YYKit/Utility/YYThreadSafeDictionary.m; sourceTree = "<group>"; };
 		52D71B26DD728C8845EC2FD4EC11AA38 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYKit/Base/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
 		5652FBA3DF02145D71E9E98931B5EAB2 /* YYWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageManager.h; path = YYKit/Image/YYWebImageManager.h; sourceTree = "<group>"; };
@@ -520,6 +518,8 @@
 		EE87CC6D332ECCC738B80686935D140F /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYKit/Image/YYAnimatedImageView.m; sourceTree = "<group>"; };
 		EEAD762F94B9078EF2CB44DE4E0A74C3 /* YYFileHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYFileHash.m; path = YYKit/Utility/YYFileHash.m; sourceTree = "<group>"; };
 		EF7389B289657845367B3681F2D500AE /* MushengLoginMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MushengLoginMoudle-Info.plist"; sourceTree = "<group>"; };
+		EFA826A3273E42F7007CAE20 /* MSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSLoginViewController.swift; path = MushengLoginMoudle/Classes/MSLoginViewController.swift; sourceTree = "<group>"; };
+		EFA826A5273E431D007CAE20 /* MSRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSRegisterViewController.swift; path = MushengLoginMoudle/Classes/MSRegisterViewController.swift; sourceTree = "<group>"; };
 		EFADA8AA4759CD9AC804BC8C9D17D5E2 /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = YYKit/Base/Quartz/YYCGUtilities.m; sourceTree = "<group>"; };
 		F008471456F5D3059AC5E8A4ACF102E9 /* Pods-MushengLoginMoudle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MushengLoginMoudle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F0092CA3807C529AC59D765D117D59A7 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYKit/Text/String/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
@@ -913,13 +913,12 @@
 			isa = PBXGroup;
 			children = (
 				A90FB72C273D53720003FECE /* BaseMoudle_UIKit */,
-				FE3B178F8947047E98608052FFE90CB0 /* MSCompleteInfoController.swift */,
-				A90FB72A273D47340003FECE /* MSRegisterViewController.swift */,
 				57BF61F1D4ADEEA386FDE6C39CE7437E /* MSForgetViewController.swift */,
+				FE3B178F8947047E98608052FFE90CB0 /* MSCompleteInfoController.swift */,
+				EFA826A5273E431D007CAE20 /* MSRegisterViewController.swift */,
+				EFA826A3273E42F7007CAE20 /* MSLoginViewController.swift */,
 				B19E5A2457E4F7CB8CEB375591DA13E1 /* MSLoginInputView.swift */,
 				75A0D9F17E31FDC64C382FCB06F6AFEC /* MSLoginProtocolView.swift */,
-				16792F8DE79932C3831BAA64D02D29D1 /* MSLoginViewController.swift */,
-				517A556AD94B5EE8CD37720EC9CC4A43 /* MSRegisterViewController.swift */,
 				E4473EC8465810DCD78E423BE9EFE6B0 /* Pod */,
 				B140DB6627BB7DA5788BD557BAE4C9F8 /* Support Files */,
 			);
@@ -1395,10 +1394,10 @@
 				ADE65B0E7D53F117A0D358AA96896ECA /* MSForgetViewController.swift in Sources */,
 				8064B73913A6F00EA1661AC48402D031 /* MSLoginInputView.swift in Sources */,
 				DF349A016764F16C8F3D6F4B25F8A5C3 /* MSLoginProtocolView.swift in Sources */,
-				4274925E13662470DE9BC5AE4207119C /* MSLoginViewController.swift in Sources */,
 				A90FB72E273D53BC0003FECE /* MSUILabelEx.swift in Sources */,
+				EFA826A6273E431D007CAE20 /* MSRegisterViewController.swift in Sources */,
 				A90FB72B273D47350003FECE /* MSRegisterViewController.swift in Sources */,
-				E4BEF36F5B4DE27BD2E595D00A045E6F /* MSRegisterViewController.swift in Sources */,
+				EFA826A4273E42F7007CAE20 /* MSLoginViewController.swift in Sources */,
 				1B0B821DA59CB3177EC191D2CC94DE58 /* MushengLoginMoudle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

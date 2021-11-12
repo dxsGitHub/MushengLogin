@@ -36,16 +36,19 @@ class MSLoginViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
+        ///闪验 - 注册 - 预取号
         setupInterface()
     }
     
     func setupInterface() {
         bgImageV = UIImageView.init(frame: self.view.bounds)
-        bgImageV.backgroundColor = .gray
+        bgImageV.backgroundColor = UIColor.init(hexString: "#FF71EE")
         self.view.addSubview(bgImageV)
+        bgImageV.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
         
         logoV = UIImageView.init()
-        logoV.backgroundColor = .red
         logoV.image = UIImage.init(named: "login_main_logo")
         self.view.addSubview(logoV)
         logoV.snp.makeConstraints { make in

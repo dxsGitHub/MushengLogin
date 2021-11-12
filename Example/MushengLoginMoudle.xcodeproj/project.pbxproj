@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3114DCFE8469D762F9CC30FD /* MushengLoginMoudle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MushengLoginMoudle.podspec; path = ../MushengLoginMoudle.podspec; sourceTree = "<group>"; };
+		3114DCFE8469D762F9CC30FD /* MushengLoginMoudle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MushengLoginMoudle.podspec; path = ../MushengLoginMoudle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36834245B17D3B66C288553D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MushengLoginMoudle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushengLoginMoudle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
